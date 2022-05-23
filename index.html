@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe</title>
+
+
+    
+    <!-- J-QUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    
+    
+    <!-- google fonts  -->
+    
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Clicker+Script&family=Montserrat:ital,wght@0,600;0,700;1,500&family=Roboto:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style1.css">
+
+</head>
+<body>
+    <div class="container">
+        <div id="control">
+            <h3>Welcome to my Tic Tac Toe Game  H3</h3>
+           <div id="input-name">
+
+               <label for="p1">Player   X</label>
+               <input type="text" id="p1">
+               
+               <label for="p2">Player   O</label>
+               <input type="text" id="p2">
+               </div>
+                
+
+              <div id="output-name">
+                  
+                  <span > </span>
+                  <img src="./vs.png" alt="" id="vs">
+                  <span > </span>               
+                
+            </div>
+
+            <p id="turn">turn of X </p>
+            <img src="./happy.gif" alt="" id="won">
+          
+
+                <button class="btn btn-primary " id="add"> Add Players</button>
+                <button class="btn btn-primary " id="reset"> Reset</button>
+            
+        
+    
+        </div>
+        
+    <div id="game">
+        <div class="box border-rt border-down"></div>
+        <div class="box border-rt border-down"></div>
+        <div class="box border-down"></div>
+        <div class="box border-rt border-down"></div>
+        <div class="box border-rt border-down"></div>
+        <div class="box border-down"></div>
+        <div class="box border-rt "></div>
+        <div class="box border-rt "></div>
+        <div class="box"></div>
+    </div>
+</div>
+<script src="./script.js"></script>
+<script src="./script2.js"></script>
+</body>
+</html>
